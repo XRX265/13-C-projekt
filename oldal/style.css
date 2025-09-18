@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+
+div {
+  background-color: rgb(216, 1, 1);
+  text-align: center;}
+
+h1 {
+    font-size: 11vw;
+    font-size: clamp(20px, 5vw, 80px);
+}
+h2 {
+    font-size: 11vw;
+    font-size: clamp(15px, 5vw, 60px);
+}
+p {
+    font-size: 11vw;
+    font-size: clamp(10px, 5vw, 50px);
+}
+img {
+    width: 60vw;
+    height: 60vw;
+    margin-bottom: 10vw;
+}
