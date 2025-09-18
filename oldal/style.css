@@ -1,25 +1,36 @@
 body {
-  background-color: black;
+  background-image: url('https://imgs.search.brave.com/Mb2JDPA4UpdVcsFVd9UEUtBOSGxiv-K966Ql3mJHjaA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nZXR3/YWxscGFwZXJzLmNv/bS93YWxscGFwZXIv/ZnVsbC8xLzUvMC8x/MjgzNjg1LXZlcnRp/Y2FsLXBlcGUtd2Fs/bHBhcGVyLTE5MjB4/MTA4MC5qcGc');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 div {
-  background-color: rgb(216, 1, 1);
-  text-align: center;}
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border: 1px solid white;
+  border-radius: 8px;
+  text-align: center;
+  color: rgb(123, 228, 132);
+  margin-top: 8%;
+  margin-bottom: 10%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
 
 h1 {
-    font-size: 11vw;
+    font-size: 10vw;
     font-size: clamp(20px, 5vw, 80px);
 }
 h2 {
-    font-size: 11vw;
+    font-size: 10vw;
     font-size: clamp(15px, 5vw, 60px);
 }
 p {
-    font-size: 11vw;
+    font-size: 10vw;
     font-size: clamp(10px, 5vw, 50px);
 }
 img {
     width: 60vw;
     height: 60vw;
-    margin-bottom: 10vw;
+    margin-bottom: 5vw;
 }
